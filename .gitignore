@@ -1,21 +1,24 @@
 # Python
 __pycache__/
-*.py[cod]
-*.egg-info/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
 
-# Virtual env
+# Virtual Environment
 venv/
 env/
+ENV/
 .venv/
 
-# Editor
+# Streamlit cache
+.streamlit/
+
+# IDE files
 .vscode/
 .idea/
 
-# Env files & secrets
-.env
-.secret
-
-# OS
+# OS files
 .DS_Store
 Thumbs.db
